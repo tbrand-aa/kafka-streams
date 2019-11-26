@@ -18,8 +18,8 @@ kafkaStream.start(() => {
   console.error('Kafka ERROR!', err)
 }, true)
 
-async function map ({message, done}) {
-  // console.log('message: ', message);
+async function map (message) {
+  // console.log('messages: ', message);
   console.log(`Receiving message. offset= ${message.offset}`)
 
   // Force wait

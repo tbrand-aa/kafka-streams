@@ -23,6 +23,7 @@ module.exports = {
     "commitEveryNBatch": 1,
     "concurrency": 1,
     "commitSync": true,
-    "noBatchCommits": false
+    "manualBatching": true,
+    "noBatchCommits": true
   }
 }
